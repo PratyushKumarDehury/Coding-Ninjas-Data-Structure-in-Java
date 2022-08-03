@@ -47,7 +47,7 @@ public class Solution {
            int space = 1;
              while(space <= n-rows){
                 System.out.print(" ");
-                   space = space + 1;
+                   space = space + 1; //space++;
                     }
              int num = 1;
                while(num <= rows){
