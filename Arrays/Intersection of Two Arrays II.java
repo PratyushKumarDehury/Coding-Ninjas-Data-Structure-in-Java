@@ -61,7 +61,7 @@ public class Solution{
         int n = arr2.length;
         
         for(int i = 0; i < m; i++){
-            for(int j = 0; j<n; j++){
+            for(int j = 0; j < n; j++){
                 if(arr1[i] == arr2[j]){
                     System.out.print(arr1[i] + " ");
                     arr2[j] = -1000;// lastly converted to as   -infinite
