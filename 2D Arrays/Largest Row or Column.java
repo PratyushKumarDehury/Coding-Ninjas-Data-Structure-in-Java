@@ -64,7 +64,7 @@ public class Solution {
              return;
          }
         
-	 	int column = mat[0].length;
+	int column = mat[0].length;
         for(int i = 0; i < row; i++){
             int Rsum = 0;
             for(int j = 0; j < column; j++){
