@@ -57,17 +57,23 @@ public class Solution {
 // }
         
         
-        long sum = 0;
+        int ans = 0;
         for(int i = 0; i < arr.length; i++){
-            sum += arr[i];
+            ans = ans ^ arr[i];
         }
-        int n  = arr.length - 2;
-        int sumOf = (n*(n+1))/2;
-        int result = (int)(sum-sumOf);
-        return result;
+            for(int i = 0; i < arr.length - 1; i++){
+                ans = ans ^ i;
+                
+            }
+        return ans;
+            
+        }
     }
-}
+
+
 //Timme Complexity -> O(n)
+        
+
         
         
     
