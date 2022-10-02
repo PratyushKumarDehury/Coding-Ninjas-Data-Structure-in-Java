@@ -100,6 +100,10 @@ For the second query, we have 2 pairs in total that sum up to 10. They are, (2, 
 
 
 
+	
+	
+	
+
 import java.util.*;
 public class Solution {	
 
@@ -118,4 +122,36 @@ public class Solution {
 	}
 }
 
+//Time Complexity -> O(nlogn) -> for sorting.
 
+
+
+//  int n = arr.length;
+//          int count = 0;
+//         for(int i = 0; i<n; i++){
+//             for(int j = i+1; j < n; j++){
+//                 if(arr[i] + arr[j] == x){//previous code x parameter change here.
+//                     count++;
+//                 }
+//             }
+//         }
+//         return count;
+//     }
+// }
+
+// //Time Complexity -> O(n^2)
+//we can optimize O(N) using hashmap. 
+               
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
