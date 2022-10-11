@@ -1,7 +1,7 @@
 For a given queue containing all integer data, reverse the first K elements.
 You have been required to make the desired change in the input queue itself.
 Example:
-alt txt
+alt txt(Figure) -->
 
 For the above input queue, if K = 4 then after reversing the first 4 elements, the queue will be updated as:
 alt txt(Figure) -->
