@@ -42,8 +42,7 @@ public class Solution {
         int count = 1;
         
       	for(int i=0;i<arr.length-1;i++){
-         
-			if(arr[i] < arr[i+1]) {
+		if(arr[i] < arr[i+1]){
                 count++;
             }else{
                 break;
@@ -61,12 +60,11 @@ public class Solution {
 
 //2nd Solution
 
-    
-        //2nd solution.
         if(arr.length == 0){
             return 0;
         }
-		int min = arr[0],index = 0;
+	int min = arr[0],index = 0;
+
       	for(int i = 1; i < arr.length; i++){
           if(min > arr[i]){
           	  min = arr[i];
