@@ -27,7 +27,7 @@ public class Solution {
         
 		if(n == 1){
 			System.out.print(n + " ");
-            return ;
+            return;
 		}
         print(n - 1);
 		System.out.print(n + " ");
