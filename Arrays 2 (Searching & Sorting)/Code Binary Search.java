@@ -40,7 +40,7 @@ Sample Output 2:
 public class Solution { 
     public static int binarySearch(int[] arr, int x) {
     	//Your code goes here
-        int  i = 0;
+              int i = 0;
 	      int j = arr.length - 1;
         
 		while(i <= j){
