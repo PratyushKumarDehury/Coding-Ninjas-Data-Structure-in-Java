@@ -41,14 +41,11 @@ public class Solution {
 				}
 			}
 
-
-
-
         
         int count = 0;
         for(int i = 0; i < input.length; i++) {
 			
-				if(input[i] != 0 && map1.containsKey(input[i]) && map1.containsKey(-1 * input[i])){
+		if(input[i] != 0 && map1.containsKey(input[i]) && map1.containsKey(-1 * input[i])){
 				
                     count = count + map1.get(-input[i]);
                     if(map1.get(input[i])>1){
