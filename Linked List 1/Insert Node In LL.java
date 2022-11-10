@@ -75,7 +75,7 @@ Sample Output 2 :
 public class Solution {
 
 	public static LinkedListNode<Integer> insert(LinkedListNode<Integer> head, int pos, int data){
-		//Your code goes here
+	//Your code goes here
         //recursive Method
         //base case
 //         if(head == null){
