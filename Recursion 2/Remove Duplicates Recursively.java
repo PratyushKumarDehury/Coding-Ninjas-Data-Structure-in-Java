@@ -26,7 +26,7 @@ xyzwz
 public class Solution {
 
 	public static String removeConsecutiveDuplicates(String s) {
-		// Write your code here
+	// Write your code here
         //base case
         if(s.length() <= 1){
             return s;
