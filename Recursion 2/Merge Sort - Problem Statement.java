@@ -28,7 +28,7 @@ Sample Output 2 :
   public class solution {
 
 	public static void mergeSort(int[] input){
-		    // Write your code here
+	// Write your code here
         merging(input,0,input.length-1);
 	}
   	public static void merging(int []input,int start,int end){
