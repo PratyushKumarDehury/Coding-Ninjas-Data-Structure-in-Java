@@ -31,7 +31,7 @@ Sample Output 3 :
 public class solution {
 
 	public static int countZerosRec(int input){
-		// Write your code here
+      // Write your code here
      //base case
         if(input < 10){
             return 0;
