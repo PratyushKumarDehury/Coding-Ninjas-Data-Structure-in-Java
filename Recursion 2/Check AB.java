@@ -35,8 +35,8 @@ In the above example, a is not followed by either "a" or "bb", instead it's foll
   public class Solution {
 
 	public static boolean checkAB(String input) {
-		// Write your code here
-		// base case
+	// Write your code here
+	// base case
         if(input.length() == 0){
             return true;
         }
