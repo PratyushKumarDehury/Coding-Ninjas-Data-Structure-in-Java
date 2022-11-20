@@ -38,14 +38,14 @@ import java.util.*;
 public class solution {
 
 	public static int maximumProfit(int budget[]) {
-		// Write your code here
+	// Write your code here
           Arrays.sort(budget);
         
         int ans=Integer.MIN_VALUE;
         int n=budget.length;
         // sort(budget,budget+n);
     	for(int i = 0;i < n; i++){
-        	ans = Math.max(ans,budget[i]*(n-i));
+        ans = Math.max(ans,budget[i]*(n-i));
     	}
     	return ans;
 
