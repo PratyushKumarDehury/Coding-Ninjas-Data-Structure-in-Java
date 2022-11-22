@@ -56,9 +56,7 @@ public class Solution {
                     
                 }else if(input[i] == 0 && map1.containsKey(input[i]) && map1.get(input[i]) > 1){
                      count = count + map1.get(input[i]) - 1;
-
                     if(map1.get(input[i]) > 1){
-            
                     map1.put(input[i],map1.get(input[i]) - 1);
                     }else{
                         map1.remove(input[i]);
