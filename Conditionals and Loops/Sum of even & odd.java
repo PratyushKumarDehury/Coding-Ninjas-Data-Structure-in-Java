@@ -26,20 +26,18 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
-		// Write your code here
-        Scanner sc = new Scanner(System.in);
+	// Write your code here
+       Scanner sc = new Scanner(System.in);
         int n,sumo = 0,sume = 0,rem;
       	int num = sc.nextInt();
       	// n = num;
-      while(num > 0)
-      {
+        while(num > 0){
+
         rem = num%10;
-        if(rem%2 == 0)
-        {
+        if(rem%2 == 0){
+
             sume = sume + rem;
-        }
-        else
-        {
+        }else{
             sumo = sumo + rem;
         }
         num = num / 10;
