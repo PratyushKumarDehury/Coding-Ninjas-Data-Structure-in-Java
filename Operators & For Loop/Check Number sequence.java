@@ -77,23 +77,23 @@ public class Main {
 	while(i < n) {
 	int current = s.nextInt();
 		if(pre == current){
-			a = 1;
+		a = 1;
 		}else if(pre > current){ //1st
 			if(isDec) {
-				pre = current;
+			pre = current;
 			}else if(b == 1){
-			
-				a = 1;
+			a = 1;
 			}else{
-				a = 1;
+			a = 1;
 			}
 		}else if(pre < current){ //2nd
 			isDec = false;
 			pre = current; 
 			b = 1;
-		} 
-        i++;
+		}
+		i++;
 	}
+		
 	if(a == 0) {
 		System.out.print("true");
 	}else{
