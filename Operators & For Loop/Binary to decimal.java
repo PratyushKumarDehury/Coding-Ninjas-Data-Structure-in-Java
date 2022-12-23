@@ -21,8 +21,8 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
-		// Write your code here
-        //while loop Approach
+	// Write your code here
+       //while loop Approach
         
 //          Scanner sc = new Scanner(System.in);
 //          int binary = sc.nextInt();
@@ -45,11 +45,10 @@ public class Main {
 
 //For loop approach
          Scanner sc = new Scanner(System.in);
-         int sum = 0,two = 1, count;
+         int sum = 0,two = 1;
         
         int binary = sc.nextInt();
-        for(; binary != 0; binary /= 10)
-        {  
+        for(int count = 0; binary != 0; binary /= 10){  
             count = binary % 10;
             sum = sum + (count * two);
             two *= 2;    
@@ -58,6 +57,9 @@ public class Main {
             System.out.println(sum);    
 	}
 }
+
+
+		
 
 
 
