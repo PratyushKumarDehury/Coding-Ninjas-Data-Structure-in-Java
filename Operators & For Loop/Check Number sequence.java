@@ -67,18 +67,15 @@ public class Main {
         //It should be strictly decreasing -> true or else false.
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-        if(n >= 1 && n <= 10000000)
-        {
-           int b = 0;
+        if(n >= 1 && n <= 10000000){
+        int b = 0;
 	int pre = s.nextInt();
 	int i = 1;
 	boolean isDec = true;
 	int a = 0;
 	
 	while(i < n) {
-		int current = s.nextInt();
-        
-        
+	int current = s.nextInt();
 		if(pre == current){
 			a = 1;
 		}else if(pre > current){ //1st
