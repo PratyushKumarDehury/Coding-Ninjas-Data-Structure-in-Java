@@ -92,8 +92,8 @@ public class Solution {
 //         int count=0;
 //         LinkedListNode<Integer> temp=head;
 //         while(temp != null && count < pos - 1){
-//             temp = temp.next;
-//             count++;
+//		count++;
+// 		temp = temp.next;          
 //         }
 //         if(temp == null)
 //             return head;
