@@ -108,8 +108,8 @@ public class Solution {
         LinkedListNode<Integer> temp = head;
         int count = 0;
         while(temp != null && count < pos - 1){
-            count++;
             temp = temp.next;
+	     count++;
         }
         if(temp == null)
             return head;
