@@ -45,6 +45,16 @@ Sample Output 2 :
 40 30 20 10 
 
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 /*
 
     Following is the Node class already written for the Linked List
@@ -63,7 +73,7 @@ Sample Output 2 :
 public class Solution {
 
 	public static LinkedListNode<Integer> kReverse(LinkedListNode<Integer> head, int k) {
-		//Your code goes here
+	//Your code goes here
         if(k == 0 || k == 1){
             return head;
     }
