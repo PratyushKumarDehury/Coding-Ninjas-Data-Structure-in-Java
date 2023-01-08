@@ -78,8 +78,9 @@ public class Solution {
             return head;
     }
         
-        LinkedListNode<Integer> p = null;
+        
         LinkedListNode<Integer> c = head;
+	LinkedListNode<Integer> p = null;
         LinkedListNode<Integer> n = null;
         
         int count = 0;
