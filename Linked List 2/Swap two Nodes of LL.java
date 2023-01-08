@@ -67,7 +67,7 @@ Sample Output 1 :
 public class Solution {
 
 	public static LinkedListNode<Integer> swapNodes(LinkedListNode<Integer> head, int i, int j) {
-		    //Your code goes here
+	//Your code goes here
         if(i == j)
         return head;
         
