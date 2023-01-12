@@ -69,8 +69,7 @@ When we move this list to the front then the remaining part of the initial list 
 public class Solution {
 
 	public static LinkedListNode<Integer> appendLastNToFirst(LinkedListNode<Integer> head, int n) {
-		//Your code goes here
-
+	//Your code goes here
         //Recursive Method
         //base case
         if(head == null || n == 0)
