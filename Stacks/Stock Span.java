@@ -40,7 +40,7 @@ import java.util.Stack;
 public class Solution {
 
 	public static int[] stockSpan(int[] price) {
-		//Your code goes here
+	//Your code goes here
         
         //Index 100, 80, 60, 70, 60, 75, 85
         //value  1    1   1  2   1   4   6
@@ -69,9 +69,9 @@ public class Solution {
         return ans;
     }
 }
-		//Index   0  1  2  3  4  5  6  7
-        	//value   60 70 80 90 75 80 120
-		//ans arr. 1  2  3  4  1  2  8
+//Index   0  1  2  3  4  5  6  7
+//value   60 70 80 90 75 80 120
+//ans arr. 1  2  3  4  1  2  8
 
 //stack => 7
 //i=8
