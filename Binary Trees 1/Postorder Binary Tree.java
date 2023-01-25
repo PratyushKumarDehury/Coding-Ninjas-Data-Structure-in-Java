@@ -49,8 +49,8 @@ Sample Input 2:
 public class Solution {
 
 	public static void postOrder(BinaryTreeNode<Integer> root) {
-		//Your code goes here
-         //base case
+	//Your code goes here
+        //base case
         if(root == null)
         	return;   
         postOrder(root.left);
