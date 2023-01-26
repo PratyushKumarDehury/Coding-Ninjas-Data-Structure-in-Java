@@ -60,7 +60,7 @@ Since we print the siblings in the left-subtree first and then the siblings from
 public class Solution {
 
 	public static void printNodesWithoutSibling(BinaryTreeNode<Integer> root) {
-		    //Your code goes here
+	//Your code goes here
         if(root == null)
         	return;
 
