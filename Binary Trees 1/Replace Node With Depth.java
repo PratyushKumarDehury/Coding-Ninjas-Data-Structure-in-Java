@@ -63,7 +63,7 @@ public class Solution {
 	public static void changeToDepthTree(BinaryTreeNode<Integer> root) {
         helper(root,0);
     }
-	    //Your code goes here
+	//Your code goes here
     public static BinaryTreeNode<Integer> helper(BinaryTreeNode<Integer> root, int depth){
         //base case
         if(root == null)
@@ -73,7 +73,7 @@ public class Solution {
         if(root.left != null)
             helper(root.left, depth+1);
     	if(root.right != null)
-        	helper(root.right, depth+1);
+            helper(root.right, depth+1);
     return root;
     
 	}
