@@ -107,7 +107,7 @@ false
 public class Solution {
 
 	public static boolean isNodePresent(BinaryTreeNode<Integer> root, int x) {
-	      //Your code goes here
+	//Your code goes here
         //base case
         if(root == null)
             return false;
