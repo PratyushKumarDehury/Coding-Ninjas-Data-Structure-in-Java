@@ -60,7 +60,7 @@ Sample Output 2:
 public class Solution {
 
 	public static void mirrorBinaryTree(BinaryTreeNode<Integer> root){
-		    //Your code goes here
+	//Your code goes here
         //base case
         if(root == null){
             return;
