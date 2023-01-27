@@ -3,7 +3,8 @@ Example:
 Alt text
 
 Input Format:
-The first and the only line of input will contain the node data, all separated by a single space. Since -1 is used as an indication whether the left or right node data exist for root, it will not be a part of the node data.
+The first and the only line of input will contain the node data, all separated by a single space. 
+Since -1 is used as an indication whether the left or right node data exist for root, it will not be a part of the node data.
 Output Format:
 The only line of output prints the mirrored tree in a level-wise order. 
 Each level will be printed on a new line. Elements printed at each level will be separated by a single line.
