@@ -25,6 +25,7 @@ The first and the only line of input will contain the node data, all separated b
 Since -1 is used as an indication whether the left or right node data exist for root, it will not be a part of the node data.
 Output Format:
 Information of all the nodes in the Binary Tree will be printed on a different line where each node will follow a format of D:L:X,R:Y, without any spaces in between.
+	
 Constraints:
 1 <= N <= 10^5
 Where N is the total number of nodes in the binary tree.
@@ -88,7 +89,7 @@ import java.util.Queue;
 public class Solution {
 
 	public static void printLevelWise(BinaryTreeNode<Integer> root) {
-		    //Your code goes here
+	//Your code goes here
         //base case
         if(root == null)
             return;
