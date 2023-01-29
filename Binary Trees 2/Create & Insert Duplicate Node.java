@@ -72,7 +72,7 @@ Sample Output 2:
 public class Solution {
 
 	public static void insertDuplicateNode(BinaryTreeNode<Integer> root) {
-		//Your code goes here
+	//Your code goes here
          if (root == null)
             return;
 
