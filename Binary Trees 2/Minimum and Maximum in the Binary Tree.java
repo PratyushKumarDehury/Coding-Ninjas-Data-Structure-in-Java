@@ -75,7 +75,7 @@ private static Pair<Integer,Integer> maxMin=new Pair<Integer,Integer>(Integer.MA
 
 
 	public static Pair<Integer, Integer> getMinAndMax(BinaryTreeNode<Integer> root) {
-		//Your code goes here
+	//Your code goes here
          getMinAndMaxHelper(root);
         return maxMin;     
         
