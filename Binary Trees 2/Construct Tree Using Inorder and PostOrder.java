@@ -67,7 +67,7 @@ Sample Output 2:
 public class Solution {
 
 	public static BinaryTreeNode<Integer> buildTree(int[] postOrder, int[] inOrder) {
-		   //Your code goes here
+	//Your code goes here
         BinaryTreeNode<Integer> root = buildTree(postOrder, inOrder, 0 ,postOrder.length-1, 0, inOrder.length-1);
     	return root;
 	}
