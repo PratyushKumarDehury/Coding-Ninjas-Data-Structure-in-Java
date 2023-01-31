@@ -67,7 +67,7 @@ import java.util.Queue;
 public class Solution {
 
 	public static void printLevelWise(BinaryTreeNode<Integer> root) {
-		//Your code goes here
+	//Your code goes here
         if (root == null)
             return;
         
