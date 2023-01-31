@@ -2,7 +2,8 @@ For a given Binary Tree of type integer and a number K, print out all root-to-le
 Example:
 alt txt
 
-If you see in the above-depicted picture of Binary Tree, we see that there are a total of two paths, starting from the root and ending at the leaves which sum up to a value of K = 13.
+If you see in the above-depicted picture of Binary Tree, we see that there are a total of two paths, starting from the root and ending at the leaves which sum up to
+a value of K = 13.
 
 The paths are:
 a. 2 3 4 4
@@ -71,7 +72,7 @@ public class Solution {
      
 
 	public static void rootToLeafPathsSumToK(BinaryTreeNode<Integer> root, int k) {
-		  //Your code goes here
+	//Your code goes here
         String arr = "";
         rootToLeafPathsSumToK(root,k,arr);
     }
