@@ -40,21 +40,21 @@ Sample Output 1 :
 	 */
 
 	public static void replaceWithLargerNodesSum(BinaryTreeNode<Integer> root) {
-		// Write your code here
-		replaceWithLargerNodesSum(root, 0);
+	// Write your code here
+	replaceWithLargerNodesSum(root, 0);
 	}
 
     
     public static int replaceWithLargerNodesSum(BinaryTreeNode<Integer> root, int sum){
         //Base Case
         if(root == null)
-			return sum;
+	  return sum;
         
-		//Recursive Case
-		sum = replaceWithLargerNodesSum(root.right,sum);
-		sum += root.data;
-		root.data = sum;
-		return replaceWithLargerNodesSum(root.left,sum);
+	//Recursive Case
+	sum = replaceWithLargerNodesSum(root.right,sum);
+	sum += root.data;
+	root.data = sum;
+	return replaceWithLargerNodesSum(root.left,sum);
 
 	}
 }
