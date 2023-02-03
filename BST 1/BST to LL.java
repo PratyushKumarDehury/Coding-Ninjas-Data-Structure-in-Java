@@ -21,8 +21,7 @@ Sample Output 1:
   
   
   
-  
-  import java.util.LinkedList;
+import java.util.LinkedList;
 public class Solution {
 
 	/*
@@ -78,7 +77,7 @@ public class Solution {
         }
 
 
-        
+        // ****************************************
         if(passNodeLeft.tail == null){
         	passNode.head.next = newNode;
             passNode.tail = newNode;
@@ -88,7 +87,7 @@ public class Solution {
         }
 
         
-        
+        // ****************************************
         if (passNodeRight.head != null){
         	passNode.tail.next = passNodeRight.head;
             passNode.tail = passNodeRight.head;//2.1
