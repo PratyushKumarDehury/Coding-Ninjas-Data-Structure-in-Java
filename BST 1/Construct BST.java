@@ -39,15 +39,15 @@ Sample Output 1:
 		}
 		*/
 	
-		public static BinaryTreeNode<Integer> SortedArrayToBST(int[] arr, int n){
+	public static BinaryTreeNode<Integer> SortedArrayToBST(int[] arr, int n){
              return SortedArrayToBSTHelper(arr, 0, n - 1);
             
 			
 		}
     public static BinaryTreeNode<Integer> SortedArrayToBSTHelper(int[] arr, int si, int ei){
 
-        //base case
-        if(si > ei)
+        	//base case
+       	 	if(si > ei)
 		return null;
 
 		int mid = (si + ei)/2;
