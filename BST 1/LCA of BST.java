@@ -15,7 +15,9 @@ Note:
 2. If both are not present, return -1.
 3. all the node data will be unique.
 Input format:
-The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated by space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left or right nodes exist, therefore, it will not be a part of the data of any node.
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated by space. 
+If any node does not have left or right child, take -1 in its place. 
+Since -1 is used as an indication whether the left or right nodes exist, therefore, it will not be a part of the data of any node.
 The following line of input contains two integers, denoting the value of data of two nodes of given BST.
 Output Format:
 The first and only line of output contains the data associated with the lowest common ancestor node.
