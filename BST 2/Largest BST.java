@@ -36,9 +36,9 @@ Sample Output 1:
 	 */
 	
 	public static int largestBSTSubtree(BinaryTreeNode<Integer> root) {
-		// Write your code here
-    //Time complexity -> O(n)
-    //Time complexity -> O(1)
+	// Write your code here
+    	//Time complexity -> O(n)
+    	//Time complexity -> O(1)
         
         if(root == null)
             return 0;
@@ -53,7 +53,7 @@ Sample Output 1:
     
     private static int findHeight(BinaryTreeNode<Integer> root){
         if(root == null)
-            return 0;
+           return 0;
         
         if(root.left == null && root.right == null)
             return 1;
@@ -65,12 +65,12 @@ Sample Output 1:
     
     private static boolean isBST(BinaryTreeNode<Integer> root, int min, int max){
         if(root == null)
-			    return true;
+	  return true;
 		
-        if(root.data < min || root.data > max)
-			   return false;
-		else
-			return isBST(root.left, min, root.data - 1) && isBST(root.right, root.data + 1, max);
+      if(root.data < min || root.data > max)
+	return false;
+      else
+	return isBST(root.left, min, root.data - 1) && isBST(root.right, root.data + 1, max);
 	}
 }
 	
