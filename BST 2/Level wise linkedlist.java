@@ -56,7 +56,7 @@ public class Solution {
 private static ArrayList<LinkedListNode<Integer>> arr = new ArrayList<LinkedListNode<Integer>>();
 
 public static ArrayList<LinkedListNode<Integer>> constructLinkedListForEachLevel(BinaryTreeNode<Integer> root){
-		// Write your code here
+	// Write your code here
     
       if(root == null)
       return null;
