@@ -75,7 +75,7 @@ public static ArrayList<LinkedListNode<Integer>> constructLinkedListForEachLevel
                     break;
                 else{
                 
-                	nodesToPrint.add(null);
+                nodesToPrint.add(null);
                     tail.next = null;
                     tail = tail.next;
                     head = null;    
