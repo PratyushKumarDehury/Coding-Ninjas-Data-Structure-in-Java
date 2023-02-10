@@ -3,7 +3,9 @@ Note:
 1. Assume BST contains all unique elements.
 2. In a pair, print the smaller element first.
 Input Format :
-The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated by space. If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left or right nodes exist, therefore, it will not be a part of the data of any node.   
+The first line of input contains data of the nodes of the tree in level order form. The data of the nodes of the tree is separated by space. 
+If any node does not have left or right child, take -1 in its place. Since -1 is used as an indication whether the left or right nodes exist, 
+therefore, it will not be a part of the data of any node.   
 The following line of input contains an integer, that denotes the value of S.
 Output format:
 You have to print each pair in a different line (pair elements separated by space). The order of different pairs, to be printed, does not matter.
