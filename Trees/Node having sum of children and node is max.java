@@ -39,11 +39,11 @@ public class Solution {
 	}*/
 	
 	public static TreeNode<Integer> ans;
-    public static int maxSum = 0;
+    	public static int maxSum = 0;
 	public static TreeNode<Integer> maxSumNode(TreeNode<Integer> root){
 	// Write your code here
         
-         if (root.children.size() == 0){
+         if(root.children.size() == 0){
 	   return root;
 	    }
          int sum = root.data;
