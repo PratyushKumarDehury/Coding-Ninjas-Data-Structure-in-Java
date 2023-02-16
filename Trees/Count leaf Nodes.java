@@ -34,7 +34,7 @@ public class Solution {
 	
 	public static int countLeafNodes(TreeNode<Integer> root){
 
-		   // Write your code here
+	// Write your code here
         int leaves = 0;
         if(root == null){
             return 0;
@@ -43,7 +43,7 @@ public class Solution {
             return 1;
         }
         for(int i = 0; i<root.children.size(); i++){
-            leaves = leaves+countLeafNodes(root.children.get(i)); //recurssion call
+            leaves = leaves+countLeafNodes(root.children.get(i)); //recursion call
         }
         return  leaves;
 
