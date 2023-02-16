@@ -52,22 +52,22 @@ false
 
 		// Write your code here
 		if(root1.data != root2.data || root1.children.size() != root2.children.size()){
-			return false;
+		     return false;
 		}
 		QueueUsingLL<TreeNode<Integer>> pendingNodes1 = new QueueUsingLL<>();
 		for(int i = 0; i < root1.children.size(); i++){
-			pendingNodes1.enqueue(root1.children.get(i));
+		   pendingNodes1.enqueue(root1.children.get(i));
 		}
         
 		QueueUsingLL<TreeNode<Integer>> pendingNodes2 = new QueueUsingLL<>();
 		for (int i = 0; i < root2.children.size(); i++){
-			pendingNodes2.enqueue(root2.children.get(i));
+		    pendingNodes2.enqueue(root2.children.get(i));
 		}
 		if(!pendingNodes1.isEmpty() && !pendingNodes2.isEmpty()){
 			try {
-				isIdentical = checkIdentical(pendingNodes1.front(), pendingNodes2.front());
+			   isIdentical = checkIdentical(pendingNodes1.front(), pendingNodes2.front());
 			} catch (QueueEmptyException e){
-				e.printStackTrace();
+			    e.printStackTrace();
 			}
 		}
 		return isIdentical;
