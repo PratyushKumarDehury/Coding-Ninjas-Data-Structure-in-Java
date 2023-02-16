@@ -33,12 +33,12 @@ public class Solution {
 	}*/
 	
 		
-	public static TreeNode<Integer> max;
-  public static TreeNode<Integer> secMax;
-	public static TreeNode<Integer> findSecondLargest(TreeNode<Integer> root){
+ public static TreeNode<Integer> max;
+ public static TreeNode<Integer> secMax;
+public static TreeNode<Integer> findSecondLargest(TreeNode<Integer> root){
 
 
-		    // Write your code here
+	// Write your code here
          if(root == null){
             return null;
         }
@@ -57,7 +57,7 @@ public class Solution {
             secMax = root;
         }
         for(TreeNode<Integer> i : root.children){
-              findSecondlargest(i);
+            findSecondlargest(i);
         }
     }
 }
