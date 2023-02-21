@@ -26,15 +26,15 @@ false
 import java.util.Scanner;
 public class Main {
 	
-	public static void main(String[] args) {
-		// Write your code here
+public static void main(String[] args) {
+     // Write your code here
      Scanner sc = new Scanner(System.in);
      int n = sc.nextInt();
      int [] arr = new int[n];
         
-    	for(int i = 0; i < n; i++){//1
-        	arr[i] = sc.nextInt();
-	}
+    for(int i = 0; i < n; i++){//1
+        arr[i] = sc.nextInt();
+    }
             
     boolean ans = false;
     int ans2 = arr[1] - arr[0];   
@@ -59,8 +59,8 @@ public class Main {
     	System.out.println("false");
 
 	    }
+       }
     }
-  }
 }
 
 
