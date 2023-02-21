@@ -18,22 +18,20 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
-		// Write your code here
+	// Write your code here
          Scanner sc = new Scanner(System.in);
          int n = sc.nextInt();
     	 int [] arr = new int[n];
         
     	for(int i = 0; i < n; i++){//1
-        	arr[i] = sc.nextInt();
+          arr[i] = sc.nextInt();
 	}
-        
-        
-    boolean ans = false;
-    int ans2 = arr[1] - arr[0];   
-    if(n > 2){
-         
-    for(int i = 2; i < n - 1; i++){//2
-    	if((arr[i + 1] - arr[i]) == ans2){
+		
+	boolean ans = false;
+        int ans2 = arr[1] - arr[0];   
+    	if(n > 2){     
+         for(int i = 2; i < n - 1; i++){//2
+    	    if((arr[i + 1] - arr[i]) == ans2){
             ans = true;
             continue;  
         }else{
@@ -41,7 +39,6 @@ public class Main {
             break;
         }
     }
-        
      }else{
         ans = true;
     }
@@ -51,7 +48,7 @@ public class Main {
     	System.out.println("false");
 
 	}
-}
+    }
 }
 
 
