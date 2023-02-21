@@ -69,12 +69,12 @@ public class solution {
         }
     }
 
-	// Return a string array that contains all the possible strings
-	public static String[] keypad(int n){
-		// Write your code here    
+// Return a string array that contains all the possible strings
+public static String[] keypad(int n){
+// Write your code here    
      if(n == 0){
       String ans[] = {""};
-       return ans;
+      return ans;
      }
       int x = 0;
       String smallAns[] = keypad(n/10);
@@ -92,5 +92,4 @@ public class solution {
 }
       
 
-     
-       
+    
