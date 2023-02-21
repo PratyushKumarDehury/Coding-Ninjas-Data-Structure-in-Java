@@ -22,26 +22,26 @@ false
 import java.util.Scanner;
 public class Main {
 	
-	public static void main(String[] args) {
-		// Write your code here
+public static void main(String[] args) {
+    // Write your code here
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
 		 
     int r,sum = 0,temp;  //variables
-  	temp = n; 
-		 //condition    
-  		while(n > 0){    
-   		r = n % 10;  
-   		sum = (sum * 10) + r;    
-   		n = n / 10;    
-  	}
+    temp = n; 
+     //condition    
+    while(n > 0){    
+    r = n % 10;  
+    sum = (sum * 10) + r;    
+    n = n / 10;    
+  }
 
-	  if(temp == sum){
-		System.out.println("true");
-	}else{
-		System.out.println("false");
-	 }
- }
+if(temp == sum){
+   System.out.println("true");
+}else{
+   System.out.println("false");
+   }
+  }
 }
 
 
