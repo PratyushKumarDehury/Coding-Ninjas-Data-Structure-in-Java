@@ -34,8 +34,8 @@ public class solution {
     
 	// Return a 2D array that contains all the subsets which sum to k
 	public static int[][] subsetsSumK(int input[], int p) {
-		// Write your code here
-     return subsetsSumK(input, p, 0);
+	// Write your code here
+        return subsetsSumK(input, p, 0);
     }
      public static int[][] subsetsSumK(int[] input, int p, int start){
          if (start == input.length){
