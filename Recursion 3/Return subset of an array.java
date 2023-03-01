@@ -38,8 +38,8 @@ Sample Output:
   public class solution {
 
   // Return a 2D array that contains all the subsets
-	public static int[][] subsets(int input[]) {
-		// Write your code here
+  public static int[][] subsets(int input[]) {
+      // Write your code here
         return subsetsHelper(input, 0);
     }
     private static int[][] subsetsHelper(int[] input, int startIndex){
