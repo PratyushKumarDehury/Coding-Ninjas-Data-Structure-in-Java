@@ -52,7 +52,7 @@ public class Solution {
         if(root == null)
             return null;
         ArrayList<Integer> output;
-        if(root.data == data){
+        if(root.data == data){//equal
             output = new ArrayList<Integer>();
             output.add(root.data);
             return output;
