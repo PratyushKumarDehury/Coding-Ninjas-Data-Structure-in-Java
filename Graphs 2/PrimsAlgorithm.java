@@ -11,7 +11,8 @@ For printing MST follow the steps -
 
 1. In one line, print an edge which is part of MST in the format - 
 v1 v2 w
-where, v1 and v2 are the vertices of the edge which is included in MST and whose weight is w. And v1  <= v2 i.e. print the smaller vertex first while printing an edge.
+where, v1 and v2 are the vertices of the edge which is included in MST and whose weight is w. 
+And v1  <= v2 i.e. print the smaller vertex first while printing an edge.
 2. Print V-1 edges in above format in different lines.
 Note: Order of different edges doesn't matter.
 Detailed explanation ( Input/output format, Notes, Images )
